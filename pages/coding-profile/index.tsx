@@ -5,18 +5,16 @@ import ApiConstants from '../../constants/ApiConstants';
 
 const fetcher = (url) => fetch(url).then((res) => res.json());
 
-const Education = () => {
+const CodingProfile = () => {
     const { data, error } = useSWR(ApiConstants.EDUCATION, fetcher);
 
     return (
         <PageTemplate>
-            <DetailsContainer title="EDUCATION">
-                {
-                    data && <EducationList data={data} />
-                }
+            <DetailsContainer title="CODING PROFILE">
+
             </DetailsContainer>
         </PageTemplate>
     )
 };
 
-export default Education;
+export default CodingProfile;

@@ -11,3 +11,9 @@ body {
     height: 100vh;
     background: $body-bg-color;
 }
+
+@media (max-width: 62.5rem) {
+    html {
+        font-size: 14px;
+    }
+}

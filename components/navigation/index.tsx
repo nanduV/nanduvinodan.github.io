@@ -21,14 +21,26 @@ export const Navigation = (props) => {
                         <a>WORK EXPERIENCE</a>
                     </Link>
                 </li>
-                <li>SKILLS</li>
-                <li>CODING PROFILE</li>
+                <li>
+                    <Link href="/skills">
+                        <a>SKILLS</a>
+                    </Link>
+                </li>
+                <li>
+                    <Link href="/coding-profile">
+                        <a>CODING PROFILE</a>
+                    </Link>
+                </li>
                 <li>
                     <Link href="/education">
                         <a>EDUCATION</a>
                     </Link>
                 </li>
-                <li>AWARDS</li>
+                <li>
+                    <Link href="/awards">
+                        <a>AWARDS</a>
+                    </Link>
+                </li>
             </ul>
         </nav>
     )

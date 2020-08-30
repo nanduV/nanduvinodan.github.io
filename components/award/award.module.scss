@@ -1,0 +1,24 @@
+.container {
+    margin-bottom: 1.5rem;
+    display: flex;
+    flex-direction: row;
+
+    .prize {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 3rem;
+        height: 3rem;
+        margin-right: 1rem;
+        background: #DDD;
+        border-radius: 10px;
+        border-top-left-radius: 0;
+    }
+
+    .event,
+    .college,
+    .date {
+        font-weight: 400;
+        margin-bottom: 0.3125rem;
+    }
+}

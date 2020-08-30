@@ -2,6 +2,7 @@ const EducationData = [
     {
         "graduation": "Bachelor of Engineering",
         "specialization": "Computer Science",
+        "year": "April 2016",
         "percentage": {
             "score": 9.2,
             "units": "CGPA"
@@ -13,7 +14,9 @@ const EducationData = [
         }
     },
     {
-        "graduation": "Higher Secondary Examination (+2)",
+        "graduation": "Higher Secondary Examination",
+        "specialization": "12th Standard",
+        "year": "March 2012",
         "percentage": {
             "score": 96,
             "units": "%"
@@ -24,7 +27,9 @@ const EducationData = [
         }
     },
     {
-        "graduation": "10th Standard",
+        "graduation": "Secondary School Leaving Certificate",
+        "specialization": "10th Standard",
+        "year": "April 2010",
         "percentage": {
             "score": 94,
             "units": "%"

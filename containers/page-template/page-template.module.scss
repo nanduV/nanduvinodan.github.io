@@ -10,10 +10,19 @@
     }
 
     section.details {
-        width: 600px;
+        width: 37.5rem;
         height: 100vh;
         padding: 3rem;
         background: $white-color;
         overflow-y: auto;
+
+        @media screen and (max-width: $mobile-breakpoint) {
+            width: 100%;
+        }
+    }
+
+    @media screen and (max-width: $mobile-breakpoint) {
+        flex-direction: column;
+        height: auto;
     }
 }
