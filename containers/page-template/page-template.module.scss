@@ -1,0 +1,19 @@
+@import './../../styles/variables';
+
+.wrapper {
+    display: flex;
+    width: 100%;
+    height: 100vh;
+
+    section.profile {
+        flex: 1;
+    }
+
+    section.details {
+        width: 600px;
+        height: 100vh;
+        padding: 3rem;
+        background: $white-color;
+        overflow-y: auto;
+    }
+}
