@@ -37,8 +37,8 @@ export const Navigation = (props) => {
                     </Link>
                 </li>
                 <li>
-                    <Link href="/awards">
-                        <a>AWARDS</a>
+                    <Link href="/competitions">
+                        <a>COMPETITIONS</a>
                     </Link>
                 </li>
             </ul>

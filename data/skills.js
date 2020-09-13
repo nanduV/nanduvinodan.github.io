@@ -1,128 +1,116 @@
 const SkillsData = [
     {
-        "category" : "Interests",
-        "items" : [
+        "category": "Interests",
+        "items": [
             {
-                "name" : "Data Structures",
-                "icon" : ""
+                "name": "Data Structures",
+                "icon": "/images/languages/ds.svg"
             },
             {
-                "name" : "Algorithms",
-                "icon" : ""
+                "name": "Algorithms",
+                "icon": "/images/languages/algo.svg"
             },
             {
-                "name" : "Distributed Systems",
-                "icon" : ""
+                "name": "Distributed Systems",
+                "icon": "/images/languages/distributed.svg"
             },
             {
-                "name" : "Scalabality",
-                "icon" : ""
+                "name": "Scalability",
+                "icon": "/images/languages/scalability.svg"
             },
             {
-                "name" : "Computer Networking",
-                "icon" : ""
+                "name": "Networking",
+                "icon": "/images/languages/networks.svg"
             },
             {
-                "name" : "Problem Solving",
-                "icon" : ""
+                "name": "Problem Solving",
+                "icon": "/images/languages/problem-solving.svg"
             },
             {
-                "name" : "Competitive programming",
-                "icon" : ""
+                "name": "Competitive Programming",
+                "icon": "/images/languages/programming.svg"
             },
             {
-                "name" : "Agile Methodology",
-                "icon" : ""
-            },
-            {
-                "name" : "Mentoring",
-                "icon" : ""
+                "name": "Agile Methodology",
+                "icon": "/images/languages/agile.svg"
             }
         ]
     },
     {
-        "category" : "Tools",
-        "items" : [
+        "category": "Tools",
+        "items": [
             {
-                "name" : "Docker",
-                "icon" : ""
+                "name": "Docker",
+                "icon": "/images/languages/docker.svg"
             },
             {
-                "name" : "Xcode",
-                "icon" : ""
+                "name": "Xcode",
+                "icon": ""
             },
             {
-                "name" : "Xcode",
-                "icon" : ""
+                "name": ".NET",
+                "icon": ""
             },
             {
-                "name" : ".NET Framework",
-                "icon" : ""
+                "name": "Linux",
+                "icon": ""
             },
             {
-                "name" : "Linux",
-                "icon" : ""
+                "name": "AWS",
+                "icon": "/images/languages/aws.svg"
             },
             {
-                "name" : "AWS",
-                "icon" : ""
+                "name": "Envoy",
+                "icon": "/images/languages/envoy.svg"
             },
             {
-                "name" : "Envoy",
-                "icon" : ""
+                "name": "Kubernetes",
+                "icon": "/images/languages/kubernetes.svg"
             },
             {
-                "name" : "Kubernetes",
-                "icon" : ""
+                "name": "Jenkins",
+                "icon": "/images/languages/jenkins.svg"
             },
             {
-                "name" : "Jenkins",
-                "icon" : ""
+                "name": "Kafka",
+                "icon": "/images/languages/kafka.svg"
             },
             {
-                "name" : "Kafka",
-                "icon" : ""
-            },
-            {
-                "name" : "Grafana",
-                "icon" : ""
+                "name": "Grafana",
+                "icon": "/images/languages/grafana.svg"
             }
         ]
     },
     {
-        "category" : "Languages",
-        "items" : [
+        "category": "Languages",
+        "items": [
             {
-                "name" : "C++",
-                "icon" : ""
+                "name": "C++",
+                "icon": "/images/languages/cplus.svg"
             },
             {
-                "name" : "Java",
-                "icon" : ""
+                "name": "Java",
+                "icon": "/images/languages/java.svg"
             },
             {
-                "name" : "C",
-                "icon" : ""
+                "name": "C",
+                "icon": "/images/languages/c.svg"
             },
             {
-                "name" : "Python",
-                "icon" : ""
+                "name": "Python",
+                "icon": "/images/languages/python.svg"
             },
             {
-                "name" : "Go",
-                "icon" : ""
+                "name": "Go",
+                "icon": "/images/languages/go.svg"
             },
             {
-                "name" : "C#",
-                "icon" : ""
+                "name": "C#",
+                "icon": "/images/languages/csharp.svg"
             },
             {
-                "name" : "VB.NET",
-                "icon" : ""
-            },
-            {
-                "name" : "Bash",
-                "icon" : ""
+                "name": "Bash",
+                "icon": "/images/languages/bash.svg"
             }
         ]
     }

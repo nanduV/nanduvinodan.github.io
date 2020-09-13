@@ -1,4 +1,7 @@
 export interface SkillInterface {
     category?: string,
-    items: Array<string>
+    items: Array<{
+        name: string,
+        icon?: string
+    }>
 }

@@ -9,12 +9,12 @@ interface SkillsListInterface {
 
 export const SkillsList: React.FunctionComponent<SkillsListInterface> = ({ skills }) => {
     return (
-        <React.Fragment>
+        <div className={styles.list}>
             {
                 skills ? skills.map((skill, index) => {
                     return <Skill key={index} {...skill} />
                 }) : null
             }
-        </React.Fragment>
+        </div>
     );
 }

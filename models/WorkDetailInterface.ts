@@ -6,7 +6,8 @@ export interface WorkDetailInterface {
     organization?: {
         name: string,
         website?: string,
-        location?: string
+        location?: string,
+        logo?: string
     },
     projects?: Array<{
         name?: string,

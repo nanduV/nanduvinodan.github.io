@@ -16,7 +16,7 @@ const Awards = () => {
 
     return (
         <PageTemplate>
-            <DetailsContainer title="AWARDS">
+            <DetailsContainer title="COMPETITIONS">
                 {
                     data ? <AwardList awards={data.college} /> : <div>Loading</div>
                 }
