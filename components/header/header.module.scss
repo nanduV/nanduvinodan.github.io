@@ -1,5 +1,7 @@
+@import './../../styles/_variables';
+
 .header {
-    display: flex;
+    display: none;
     justify-content: space-between;
     padding: 1rem;
     background: #000;
@@ -8,5 +10,10 @@
     h2 {
         font-weight: 400;
         letter-spacing: 0.5px;
+        cursor: pointer;
+    }
+
+    @media screen and (max-width: $mobile-breakpoint) {
+        display: flex
     }
 }

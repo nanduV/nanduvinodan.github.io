@@ -8,15 +8,11 @@
         display: flex;
 
         li {
-            margin: 0 2rem;
+            margin-right: 3rem;
 
             a {
                 text-decoration: none;
                 color: $white-color;
-            }
-
-            &:first-child {
-                margin-left: 0
             }
 
             @media screen and (max-width: $tablet-breakpoint) {
