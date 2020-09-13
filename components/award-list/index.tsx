@@ -1,18 +1,25 @@
-import styles from './work-detail.module.scss';
+import React from 'react';
 import { Award } from '..';
 import { AwardInterface } from '../../models/AwardInterface';
 
 interface AwardListInterface {
-    data: Array<AwardInterface>
+    awards: Array<AwardInterface>;
 }
 
 export const AwardList: React.FunctionComponent<AwardListInterface> = (props) => {
+
     const {
-        data
+        awards
     } = props;
+
+
     return (
-        data ? data.map((d, index) => {
-            return <Award data={d} />
-        }) : null
+        <React.Fragment>
+            {
+                awards ? awards.map((award, index) => {
+                    return <Award key={index} {...award} />
+                }) : null
+            }
+        </React.Fragment>
     )
 };

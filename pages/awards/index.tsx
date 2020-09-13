@@ -14,7 +14,7 @@ const Awards = () => {
         <PageTemplate>
             <DetailsContainer title="AWARDS">
                 {
-                    data && <AwardList data={data.college} />
+                    data && <AwardList awards={data.college} />
                 }
             </DetailsContainer>
         </PageTemplate>

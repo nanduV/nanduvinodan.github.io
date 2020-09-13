@@ -5,18 +5,22 @@ import { SubHeading } from '../sub-heading';
 
 export const Award: React.FunctionComponent<AwardInterface> = (props) => {
     const {
-        data
+        symposium,
+        college,
+        event,
+        date,
+        prize
     } = props;
 
     return (
         <div className={styles.container}>
             <div className={styles.prize}>
-                {data.prize}
+                {prize}
             </div>
             <div className={styles.details}>
-                <Heading text={data.event} />
-                <SubHeading text={data.college} />
-                <h5 className={styles.date}>{data.date}, {data.symposium}</h5>
+                <Heading text={event} />
+                <SubHeading text={college} />
+                <h5 className={styles.date}>{date}, {symposium}</h5>
             </div>
         </div>
     )
