@@ -1,7 +1,7 @@
 const SkillsData = [
     {
-        "category" : "Interests",
-        "items" : [
+        "category": "Interests",
+        "items": [
             "Data Structures",
             "Algorithms",
             "Distributed Systems",
@@ -14,8 +14,8 @@ const SkillsData = [
         ]
     },
     {
-        "category" : "Tools",
-        "items" : [
+        "category": "Tools",
+        "items": [
             "Docker",
             "Xcode",
             "Qt",
@@ -30,8 +30,8 @@ const SkillsData = [
         ]
     },
     {
-        "category" : "Languages",
-        "items" : [
+        "category": "Languages",
+        "items": [
             "C++",
             "Java",
             "C",

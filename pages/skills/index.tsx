@@ -1,13 +1,20 @@
+import styles from './work-experience.module.scss';
+import useSWR from 'swr';
 
-import styles from './about.module.scss';
+import { DetailsContainer, SkillsList } from '../../components';
+import ApiConstants from '../../constants/ApiConstants';
 import PageTemplate from '../../containers/page-template/page-template';
-import { DetailsContainer } from '../../components';
+
+const fetcher = (url) => fetch(url).then((res) => res.json());
 
 const Skills = () => {
+
+    const { data, error } = useSWR(ApiConstants.SKILLS, fetcher);
+
     return (
         <PageTemplate>
             <DetailsContainer title="SKILLS">
-
+                <SkillsList skills={data} />
             </DetailsContainer>
         </PageTemplate>
     )

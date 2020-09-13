@@ -36,6 +36,10 @@ interface ${componentName}Interface {
 
 }
 
+/**
+ * ${componentName} ${folderType}
+ * @param props 
+ */
 export const ${componentName}: React.FunctionComponent<${componentName}Interface> = (props) => {
     return(
         <div>${componentName}</div>

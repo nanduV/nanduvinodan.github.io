@@ -13,3 +13,5 @@ export * from './technology-display-list';
 export * from './work-detail';
 export * from './work-details-list';
 export * from './header';
+export * from './skills-list';
+export * from './skill';
