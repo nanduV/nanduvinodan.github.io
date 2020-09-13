@@ -4,7 +4,8 @@ const WorkExperienceData = [
         "organization": {
             "name": "Freshworks",
             "location": "Chennai",
-            "website": "https://www.freshworks.com/"
+            "website": "https://www.freshworks.com/",
+            "logo": "images/organizations/freshworks.png"
         },
         "timePeriod": "2019 - PRESENT",
         "projects": [
@@ -34,13 +35,14 @@ const WorkExperienceData = [
                 "link": null
             }
         ]
-    }, 
+    },
     {
         "designation": "Software Engineer II",
         "organization": {
             "name": "Amazon",
             "location": "Chennai",
-            "website": "https://www.amazon.in/"
+            "website": "https://www.amazon.in/",
+            "logo": "images/organizations/amazon.jpg"
         },
         "timePeriod": "2018 - 2019",
         "projects": [
@@ -52,7 +54,7 @@ const WorkExperienceData = [
                     "Migrated the application from 32-bit to 64-bit for MacOS.",
                     "Developed features like Early access, importing Comic books, creating paperbacks from kindle create and designing content-recovery in Kindle Create."
                 ],
-                "technologies": [ 
+                "technologies": [
                     "C++", "Qt", "Xcode", "Event-driven architecture"
                 ],
                 "link": "https://www.amazon.com/Kindle-Create/b?ie=UTF8&node=18292298011"
@@ -64,7 +66,8 @@ const WorkExperienceData = [
         "organization": {
             "name": "Amazon",
             "location": "Chennai",
-            "website": "https://www.amazon.in/"
+            "website": "https://www.amazon.in/",
+            "logo": "images/organizations/amazon.jpg"
         },
         "timePeriod": "2016 - 2018",
         "projects": [
@@ -75,7 +78,7 @@ const WorkExperienceData = [
                     "Worked with the Kindle team at Amazon on building a service which converts Word documents to Kindle Format.",
                     "Worked on developing features which enhance the quality of a book in kindle like uniform styling, page-breaks, etc."
                 ],
-                "technologies": [ 
+                "technologies": [
                     "Java", "Linux", "Aspose Word for Java"
                 ],
                 "link": null
@@ -89,7 +92,7 @@ const WorkExperienceData = [
                     "Worked on the conversion of word documents edited with the add-in to kindle format.",
                     "Developed a windows daemon service for monitoring any windows desktop application. "
                 ],
-                "technologies": [ 
+                "technologies": [
                     "VB.NET", "C#", "Java"
                 ],
                 "link": null

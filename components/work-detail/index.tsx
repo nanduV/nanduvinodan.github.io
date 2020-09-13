@@ -3,6 +3,7 @@ import { ProjectDetail } from '../project-detail';
 import { Heading } from '../heading';
 import { WorkDetailInterface } from '../../models/WorkDetailInterface';
 
+
 /**
  * WorkDetail
  * @param props 
@@ -16,13 +17,18 @@ export const WorkDetail: React.FunctionComponent<WorkDetailInterface> = (props) 
     } = props;
     return (
         <div className={styles.container}>
-            <div className={styles.timePeriod}>{timePeriod}</div>
-            <Heading text={designation} bold={true} />
-            {
-                organization && <h4 className={styles.organization}>
-                    <a href={organization.website} target="_blank">{organization.name}</a>, {organization.location}
-                </h4>
-            }
+            <header>
+                <div className={styles.logo}>
+                    <img src={organization.logo} />
+                </div>
+                <div className={styles.details}>
+                    <div className={styles.timePeriod}>{timePeriod}</div>
+                    <Heading text={designation} bold={true} />
+                    <h4 className={styles.organization}>
+                        <a href={organization.website} target="_blank">{organization.name}</a>, {organization.location}
+                    </h4>
+                </div>
+            </header>
 
             <div className={styles.project}>
                 {
