@@ -5,7 +5,9 @@ import { Navigation, SocialIcons } from '../../components';
 const Profile = () => {
     return (
         <div className={styles.wrapper}>
-            <Navigation />
+            <div>
+                <Navigation />
+            </div>
 
             <div className={styles.profile}>
                 <div className={styles.name}>Nandu Vinodan</div>

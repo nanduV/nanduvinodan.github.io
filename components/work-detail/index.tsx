@@ -30,13 +30,16 @@ export const WorkDetail: React.FunctionComponent<WorkDetailInterface> = (props) 
     } = props;
     return (
         <div className={styles.container}>
+            <div className={styles.timePeriod}>{data.timePeriod}</div>
             <Heading text={data.designation} bold={true} />
             <h4 className={styles.organization}>
                 <a href={data.organization.website} target="_blank">{data.organization.name}</a>, {data.organization.location}
             </h4>
-            {
-                data.projects && data.projects.map(project => <ProjectDetail key={project.name} data={project} />)
-            }
+            <div className={styles.project}>
+                {
+                    data.projects && data.projects.map(project => <ProjectDetail key={project.name} data={project} />)
+                }
+            </div>
         </div>
     )
 };

@@ -1,6 +1,15 @@
 .container {
     margin-bottom: 2.5rem;
-    ;
+    border-bottom: 1px solid #CCC;
+
+    .timePeriod {
+        font-size: 0.825rem;
+        margin-bottom: 0.5rem;
+    }
+
+    .project {
+        margin-left: 2rem
+    }
 }
 
 .organization {

@@ -1,7 +1,9 @@
+import React from 'react';
 import { EducationDetail } from '../education-detail';
+import { EducationDetailInterface } from '../../models/EducationDetailInterface';
 
 interface EducationListInterface {
-    data: any
+    data: Array<EducationDetailInterface>
 }
 
 /**
@@ -13,8 +15,12 @@ export const EducationList: React.FunctionComponent<EducationListInterface> = (p
         data
     } = props;
     return (
-        data ? data.map(d => {
-            return <EducationDetail key={d.designation} data={d} />
-        }) : null
+        <React.Fragment>
+            {
+                data ? data.map((d, index) => {
+                    return <EducationDetail key={index} {...d} />
+                }) : null
+            }
+        </React.Fragment>
     )
 };

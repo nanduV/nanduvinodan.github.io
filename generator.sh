@@ -28,7 +28,7 @@ done
 echo $componentName
 
 # Write Placeholder in the created file
-cat > ${fileName}.tsx << EOM
+cat > index.tsx << EOM
 import styles from './${fileName}.module.scss';
 import React from 'react';
 
