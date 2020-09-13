@@ -12,3 +12,4 @@ export * from './technology-display';
 export * from './technology-display-list';
 export * from './work-detail';
 export * from './work-details-list';
+export * from './header';

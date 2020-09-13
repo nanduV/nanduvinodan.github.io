@@ -2,9 +2,10 @@ import styles from './profile.module.scss';
 
 import { Navigation, SocialIcons } from '../../components';
 
-const Profile = () => {
+const Profile = ({ open }) => {
+
     return (
-        <div className={styles.wrapper}>
+        <div className={`${styles.wrapper} ${open && styles.mobile}`}>
             <div>
                 <Navigation />
             </div>

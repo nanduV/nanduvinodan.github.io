@@ -1,10 +1,19 @@
-import React from 'react';
+import React, { useState } from 'react';
 import Head from 'next/head';
 import styles from './page-template.module.scss';
 import Profile from '../profile';
+import { Header } from '../../components';
 
 const PageTemplate = (props) => {
     const { title = '' } = props;
+
+    const [menu, setMenu] = useState(false);
+
+    const toggleMenu = () => {
+        console.log("Clicked");
+        setMenu(!menu);
+    };
+
     return (
         <React.Fragment>
             <Head>
@@ -25,8 +34,9 @@ const PageTemplate = (props) => {
                 <title>Nandu Vinodan {title && ` | ${title}`}</title>
             </Head>
             <div className={styles.wrapper}>
+                <Header toggleMenu={toggleMenu} />
                 <section className={styles.profile}>
-                    <Profile />
+                    <Profile open={menu} />
                 </section>
                 <section className={styles.details}>
                     {props.children}

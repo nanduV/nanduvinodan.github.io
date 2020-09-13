@@ -50,5 +50,5 @@ if [[ ! -e index.ts ]]; then
     touch index.ts
 fi
 
-printf "\nexport * from './${fileName}/${fileName}';" >> index.ts
+printf "\nexport * from './${fileName}';" >> index.ts
 

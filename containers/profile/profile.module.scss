@@ -8,17 +8,21 @@
     padding: 5rem;
     color: $white-color;
 
-
-
     @media screen and (max-width: $mobile-breakpoint) {
         position: fixed;
-        top: 0;
-        left: 0;
+        left: -70%;
         z-index: 999;
-        width: 80%;
+        width: 70%;
         height: 100vh;
         padding: 2.5rem;
         background: #000;
+        transition: 1s;
+    }
+
+    &.mobile {
+        @media screen and (max-width: $mobile-breakpoint) {
+            left: 0;
+        }
     }
 }
 
