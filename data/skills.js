@@ -45,15 +45,15 @@ const SkillsData = [
             },
             {
                 "name": "Xcode",
-                "icon": ""
+                "icon": "/images/languages/xcode.svg"
             },
             {
                 "name": ".NET",
-                "icon": ""
+                "icon": "/images/languages/dotnet.svg"
             },
             {
                 "name": "Linux",
-                "icon": ""
+                "icon": "/images/languages/linux.svg"
             },
             {
                 "name": "AWS",
