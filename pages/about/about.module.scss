@@ -1,3 +1,29 @@
-p.about {
-    line-height: 25px;
+p {
+    &.hello {
+        margin-bottom: 2rem;
+
+        font: {
+            size: 2rem;
+            weight: 100;
+        }
+    }
+
+    &.about {
+        line-height: 1.6rem;
+        margin-bottom: 2rem;
+
+        a {
+            text-decoration: none;
+        }
+
+        span {
+            &.highlight {
+                font: {
+                    weight: 700;
+                }
+            }
+        }
+    }
+
+
 }
