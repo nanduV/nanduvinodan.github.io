@@ -13,8 +13,7 @@ export const ProjectDetail: React.FunctionComponent<ProjectDetailInterface> = (p
     } = props;
     return (
         <div className={styles.project}>
-            <h5 className={styles.type}>{data.type}</h5>
-            <h4 className={styles.name}>{data.name}</h4>
+            <h5 className={styles.name}>{data.type} : {data.name}</h5>
             <ul className={styles.responsibilities}>
                 {
                     data.responsibilities && data.responsibilities.map(responsibility => <li key={responsibility}>{responsibility}</li>)

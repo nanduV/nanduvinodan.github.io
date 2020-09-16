@@ -1,9 +1,9 @@
 .container {
-    margin-bottom: 2.5rem;
-    border-bottom: 1px solid #CCC;
+    padding-bottom: 2rem;
 
     header {
         display: flex;
+        align-items: flex-end;
 
         .logo {
             width: 4rem;
@@ -24,12 +24,16 @@
                 margin-bottom: 0.5rem;
             }
         }
+
+        .toggle {
+            font-size: 0.875rem;
+            cursor: pointer;
+            color: #AAA;
+        }
     }
 
-
-
     .project {
-        margin-left: 2rem
+        margin-left: 5rem
     }
 }
 

@@ -1,7 +1,7 @@
 import styles from './work-experience.module.scss';
 import useSWR from 'swr';
 
-import { DetailsContainer, WorkDetailsList } from '../../components';
+import { DetailsContainer, WorkDetailsList, Loader } from '../../components';
 import ApiConstants from '../../constants/ApiConstants';
 import PageTemplate from '../../containers/page-template/page-template';
 
@@ -14,7 +14,7 @@ const WorkExperience = () => {
     return (
         <PageTemplate>
             <DetailsContainer title="WORK EXPERIENCE">
-                <WorkDetailsList data={data} />
+                {data ? <WorkDetailsList data={data} /> : <Loader />}
             </DetailsContainer>
         </PageTemplate>
     )

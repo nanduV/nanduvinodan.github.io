@@ -1,4 +1,5 @@
 import styles from './work-detail.module.scss';
+import React, { useState } from 'react';
 import { ProjectDetail } from '../project-detail';
 import { Heading } from '../heading';
 import { WorkDetailInterface } from '../../models/WorkDetailInterface';
@@ -15,6 +16,13 @@ export const WorkDetail: React.FunctionComponent<WorkDetailInterface> = (props) 
         organization,
         projects
     } = props;
+
+    const [showProjects, setShowProjects] = useState(false);
+
+    const toggle = () => {
+        setShowProjects(prev => !prev);
+    }
+
     return (
         <div className={styles.container}>
             <header>
@@ -28,13 +36,19 @@ export const WorkDetail: React.FunctionComponent<WorkDetailInterface> = (props) 
                         <a href={organization.website} target="_blank">{organization.name}</a>, {organization.location}
                     </h4>
                 </div>
+                <span className={styles.toggle} onClick={toggle}>
+                    {showProjects ? 'Hide' : 'Show'} Projects
+                </span>
             </header>
 
-            <div className={styles.project}>
-                {
-                    projects && projects.map(project => <ProjectDetail key={project.name} data={project} />)
-                }
-            </div>
+            {
+                showProjects && (<div className={styles.project}>
+                    {
+                        projects && projects.map(project => <ProjectDetail key={project.name} data={project} />)
+                    }
+                </div>)
+            }
+
         </div>
     )
 };

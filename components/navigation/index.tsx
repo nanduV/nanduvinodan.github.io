@@ -26,11 +26,11 @@ export const Navigation = (props) => {
                         <a>SKILLS</a>
                     </Link>
                 </li>
-                <li>
+                {/* <li>
                     <Link href="/coding-profile">
                         <a>CODING PROFILE</a>
                     </Link>
-                </li>
+                </li> */}
                 <li>
                     <Link href="/education">
                         <a>EDUCATION</a>

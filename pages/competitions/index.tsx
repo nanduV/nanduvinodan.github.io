@@ -3,7 +3,7 @@ import styles from './awards.module.scss';
 import React, { useState } from 'react';
 import useSWR from 'swr';
 import PageTemplate from '../../containers/page-template/page-template';
-import { DetailsContainer, AwardList } from '../../components';
+import { DetailsContainer, AwardList, Loader } from '../../components';
 import ApiConstants from '../../constants/ApiConstants';
 
 const fetcher = (url) => fetch(url).then((res) => res.json());
@@ -18,7 +18,7 @@ const Awards = () => {
         <PageTemplate>
             <DetailsContainer title="COMPETITIONS">
                 {
-                    data ? <AwardList awards={data.college} /> : <div>Loading</div>
+                    data ? <AwardList awards={data.college} /> : <Loader />
                 }
             </DetailsContainer>
         </PageTemplate>
