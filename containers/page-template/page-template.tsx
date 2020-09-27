@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import { Swipeable } from 'react-swipeable';
 import Head from 'next/head';
 import styles from './page-template.module.scss';
 import Profile from '../profile';
@@ -27,6 +28,9 @@ const PageTemplate = (props) => {
                 />
                 <meta httpEquiv="Pragma" content="no-cache" />
                 <meta httpEquiv="Expires" content="0" />
+                <link rel="shortcut icon" href="favicon/favicon.ico" />
+
+
                 <link
                     href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700&display=swap"
                     rel="stylesheet"
@@ -36,7 +40,9 @@ const PageTemplate = (props) => {
             <div className={styles.wrapper}>
                 <Header toggleMenu={toggleMenu} />
                 <section className={styles.profile}>
-                    <Profile open={menu} />
+                    <Swipeable onSwipedLeft={toggleMenu}>
+                        <Profile open={menu} />
+                    </Swipeable>
                 </section>
                 <section className={styles.details}>
                     {props.children}
