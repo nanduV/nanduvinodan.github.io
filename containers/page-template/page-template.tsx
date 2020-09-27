@@ -18,6 +18,8 @@ const PageTemplate = (props) => {
     return (
         <React.Fragment>
             <Head>
+                <meta name="title" content="Nandu Vinodan" />
+                <meta name="description" content="I'm a Software Engineer, experienced in developing high scalable APIs and applications focused on back-end optimizations with a demonstrated history of designing, developing and building large-scale applications. Professional with a great work ethic and strives for best results without compromising on quality with high efficient problem solving. Also, a team player who is always passionate about learning new technologies and solving challenging problems." />
                 <meta
                     name="viewport"
                     content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0"
@@ -29,7 +31,6 @@ const PageTemplate = (props) => {
                 <meta httpEquiv="Pragma" content="no-cache" />
                 <meta httpEquiv="Expires" content="0" />
                 <link rel="shortcut icon" href="favicon/favicon.ico" />
-
 
                 <link
                     href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700&display=swap"
@@ -45,7 +46,9 @@ const PageTemplate = (props) => {
                     </Swipeable>
                 </section>
                 <section className={styles.details}>
-                    {props.children}
+                    <Swipeable onSwipedRight={toggleMenu}>
+                        {props.children}
+                    </Swipeable>
                 </section>
             </div>
         </React.Fragment>

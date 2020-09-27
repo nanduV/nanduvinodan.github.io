@@ -17,7 +17,7 @@ export const Navigation = (props) => {
                     </Link>
                 </li>
                 <li>
-                    <Link href="/work-experience">
+                    <Link href="/experience">
                         <a>EXPERIENCE</a>
                     </Link>
                 </li>

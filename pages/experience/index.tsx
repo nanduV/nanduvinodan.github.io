@@ -13,7 +13,7 @@ const WorkExperience = () => {
 
     return (
         <PageTemplate>
-            <DetailsContainer title="WORK EXPERIENCE">
+            <DetailsContainer title="EXPERIENCE">
                 {data ? <WorkDetailsList data={data} /> : <Loader />}
             </DetailsContainer>
         </PageTemplate>
