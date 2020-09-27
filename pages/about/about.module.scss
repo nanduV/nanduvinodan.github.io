@@ -1,3 +1,5 @@
+@import './../../styles/_variables';
+
 .hello {
 
     font: {
@@ -26,7 +28,7 @@
 
 .codingProfile {
     display: flex;
-    justify-content: space-between;
+    flex-wrap: wrap;
     margin-top: 1.5rem;
 
     a {

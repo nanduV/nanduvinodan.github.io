@@ -5,6 +5,11 @@
     grid-template-columns: auto auto auto auto;
 
     @media screen and (max-width: $mobile-breakpoint) {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    @media screen and (max-width: $mobile-portrait-breakpoint) {
         grid-template-columns: auto auto auto
     }
 }

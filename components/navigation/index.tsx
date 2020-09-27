@@ -18,7 +18,7 @@ export const Navigation = (props) => {
                 </li>
                 <li>
                     <Link href="/work-experience">
-                        <a>WORK EXPERIENCE</a>
+                        <a>EXPERIENCE</a>
                     </Link>
                 </li>
                 <li>

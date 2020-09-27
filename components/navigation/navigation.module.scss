@@ -15,12 +15,12 @@
                 color: $theme-color-white;
             }
 
-            @media screen and (max-width: $tablet-breakpoint) {
+            @media screen and (max-width: $small-desktop-breakpoint) {
                 margin: 1rem;
             }
         }
 
-        @media screen and (max-width: $tablet-breakpoint) {
+        @media screen and (max-width: $small-desktop-breakpoint) {
             flex-direction: column;
         }
     }

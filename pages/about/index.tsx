@@ -1,4 +1,3 @@
-
 import styles from './about.module.scss';
 import useSWR from 'swr';
 import PageTemplate from '../../containers/page-template/page-template';
