@@ -18,7 +18,7 @@ const EducationData = [
         "specialization": "12th Standard",
         "year": "March 2012",
         "percentage": {
-            "score": 96,
+            "score": 96.5,
             "units": "%"
         },
         "school": {
@@ -31,7 +31,7 @@ const EducationData = [
         "specialization": "10th Standard",
         "year": "April 2010",
         "percentage": {
-            "score": 94,
+            "score": 96.4,
             "units": "%"
         },
         "school": {
