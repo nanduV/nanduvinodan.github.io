@@ -18,8 +18,7 @@ const Awards = () => {
         <PageTemplate>
             <DetailsContainer title="COMPETITIONS">
                 <div className={styles.message}>
-                    <p>Participating in coding competitions has always been my super hobby from my college days. Looking back now, these competitions and prizes are an absolute source of motivation even today.</p>
-                    <p>The list contains a total of <b>{data?.college?.length}</b> prizes won at various Symposiums.</p>
+                    <p>Participating in coding competitions has always been my hobby from college days. Looking back now, these competitions and prizes are an absolute source of motivation even today.</p>
                 </div>
                 {
                     data ? <AwardList awards={data.college} /> : <Loader />

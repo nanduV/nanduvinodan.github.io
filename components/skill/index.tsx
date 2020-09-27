@@ -2,6 +2,7 @@ import styles from './skill.module.scss';
 import React from 'react';
 import { SkillInterface } from '../../models/SkillInterface';
 import { Heading } from '../heading';
+import { Badge } from '../badge';
 
 export const Skill: React.FunctionComponent<SkillInterface> = ({
     category, items
@@ -12,12 +13,7 @@ export const Skill: React.FunctionComponent<SkillInterface> = ({
             <div className={styles.skills}>
                 {
                     items ? items.map((item, index) => {
-                        return <div className={styles.skill} key={index}>
-                            <div className={styles.icon}>
-                                <img src={item.icon} />
-                            </div>
-                            <p className={styles.name}>{item.name}</p>
-                        </div>
+                        return <Badge key={index} name={item.name} icon={item.icon} />
                     }) : null
                 }
             </div>

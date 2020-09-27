@@ -16,3 +16,4 @@ export * from './header';
 export * from './skills-list';
 export * from './skill';
 export * from './loader';
+export * from './badge';

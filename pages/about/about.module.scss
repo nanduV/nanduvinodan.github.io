@@ -1,31 +1,35 @@
-p {
-    &.hello {
-        margin-bottom: 2rem;
+.hello {
 
-        font: {
-            size: 2rem;
-            weight: 100;
-        }
+    font: {
+        size: 2rem;
+        weight: 100;
+    }
+}
+
+.info {
+    line-height: 1.6rem;
+    margin-top: 1.5rem;
+    font-size: 0.9375rem;
+
+    a {
+        text-decoration: none;
     }
 
-    &.about {
-        line-height: 1.6rem;
-        margin-bottom: 2rem;
-
-        font-size: 0.9375rem;
-
-        a {
-            text-decoration: none;
-        }
-
-        span {
-            &.highlight {
-                font: {
-                    weight: 700;
-                }
+    span {
+        &.highlight {
+            font: {
+                weight: 700;
             }
         }
     }
+}
 
+.codingProfile {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 1.5rem;
 
+    a {
+        text-decoration: none;
+    }
 }

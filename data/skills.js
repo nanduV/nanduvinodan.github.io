@@ -4,35 +4,35 @@ const SkillsData = [
         "items": [
             {
                 "name": "Data Structures",
-                "icon": "/images/languages/ds.svg"
+                "icon": "/images/badges/ds.svg"
             },
             {
                 "name": "Algorithms",
-                "icon": "/images/languages/algo.svg"
+                "icon": "/images/badges/algo.svg"
             },
             {
                 "name": "Distributed Systems",
-                "icon": "/images/languages/distributed.svg"
+                "icon": "/images/badges/distributed.svg"
             },
             {
                 "name": "Scalability",
-                "icon": "/images/languages/scalability.svg"
+                "icon": "/images/badges/scalability.svg"
             },
             {
                 "name": "Networking",
-                "icon": "/images/languages/networks.svg"
+                "icon": "/images/badges/networks.svg"
             },
             {
                 "name": "Problem Solving",
-                "icon": "/images/languages/problem-solving.svg"
+                "icon": "/images/badges/problem-solving.svg"
             },
             {
                 "name": "Competitive Programming",
-                "icon": "/images/languages/programming.svg"
+                "icon": "/images/badges/programming.svg"
             },
             {
                 "name": "Agile Methodology",
-                "icon": "/images/languages/agile.svg"
+                "icon": "/images/badges/agile.svg"
             }
         ]
     },
@@ -41,76 +41,76 @@ const SkillsData = [
         "items": [
             {
                 "name": "Docker",
-                "icon": "/images/languages/docker.svg"
+                "icon": "/images/badges/docker.svg"
             },
             {
                 "name": "Xcode",
-                "icon": "/images/languages/xcode.svg"
+                "icon": "/images/badges/xcode.svg"
             },
             {
                 "name": ".NET",
-                "icon": "/images/languages/dotnet.svg"
+                "icon": "/images/badges/dotnet.svg"
             },
             {
                 "name": "Linux",
-                "icon": "/images/languages/linux.svg"
+                "icon": "/images/badges/linux.svg"
             },
             {
                 "name": "AWS",
-                "icon": "/images/languages/aws.svg"
+                "icon": "/images/badges/aws.svg"
             },
             {
                 "name": "Envoy",
-                "icon": "/images/languages/envoy.svg"
+                "icon": "/images/badges/envoy.svg"
             },
             {
                 "name": "Kubernetes",
-                "icon": "/images/languages/kubernetes.svg"
+                "icon": "/images/badges/kubernetes.svg"
             },
             {
                 "name": "Jenkins",
-                "icon": "/images/languages/jenkins.svg"
+                "icon": "/images/badges/jenkins.svg"
             },
             {
                 "name": "Kafka",
-                "icon": "/images/languages/kafka.svg"
+                "icon": "/images/badges/kafka.svg"
             },
             {
                 "name": "Grafana",
-                "icon": "/images/languages/grafana.svg"
+                "icon": "/images/badges/grafana.svg"
             }
         ]
     },
     {
-        "category": "Languages",
+        "category": "badges",
         "items": [
             {
                 "name": "C++",
-                "icon": "/images/languages/cplus.svg"
+                "icon": "/images/badges/cplus.svg"
             },
             {
                 "name": "Java",
-                "icon": "/images/languages/java.svg"
+                "icon": "/images/badges/java.svg"
             },
             {
                 "name": "C",
-                "icon": "/images/languages/c.svg"
+                "icon": "/images/badges/c.svg"
             },
             {
                 "name": "Python",
-                "icon": "/images/languages/python.svg"
+                "icon": "/images/badges/python.svg"
             },
             {
                 "name": "Go",
-                "icon": "/images/languages/go.svg"
+                "icon": "/images/badges/go.svg"
             },
             {
                 "name": "C#",
-                "icon": "/images/languages/csharp.svg"
+                "icon": "/images/badges/csharp.svg"
             },
             {
                 "name": "Bash",
-                "icon": "/images/languages/bash.svg"
+                "icon": "/images/badges/bash.svg"
             }
         ]
     }
