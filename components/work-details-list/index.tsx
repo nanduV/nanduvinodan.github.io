@@ -14,8 +14,8 @@ export const WorkDetailsList: React.FunctionComponent<WorkDetailsListInterface> 
         data
     } = props;
     return (
-        data ? data.map(d => {
-            return <WorkDetail key={d.designation} {...d} />
+        data ? data.map((d, index) => {
+            return <WorkDetail key={d.designation} {...d} show={index === 0} />
         }) : null
     )
 };

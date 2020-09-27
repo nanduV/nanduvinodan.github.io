@@ -12,9 +12,6 @@ const Profile = ({ open }) => {
 
             <div className={styles.profile}>
                 <div className={styles.name}>Nandu Vinodan</div>
-                <div className={styles.resume}>
-                    <a className={styles.resumeButton} href="" download>DOWNLOAD RESUME</a>
-                </div>
             </div>
 
             <SocialIcons />

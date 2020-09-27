@@ -7,13 +7,17 @@
 
     section.profile {
         flex: 1;
+
+        @media screen and (max-width: $mobile-breakpoint) {
+            padding-top: 3.5rem;
+        }
     }
 
     section.details {
         width: 37.5rem;
         height: 100vh;
         padding: 3rem;
-        background: $white-color;
+        background: $theme-color-white;
         overflow-y: auto;
 
         @media screen and (max-width: $mobile-breakpoint) {

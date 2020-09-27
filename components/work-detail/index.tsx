@@ -14,31 +14,34 @@ export const WorkDetail: React.FunctionComponent<WorkDetailInterface> = (props) 
         timePeriod,
         designation,
         organization,
-        projects
+        projects,
+        show = false
     } = props;
 
-    const [showProjects, setShowProjects] = useState(false);
+    const [showProjects, setShowProjects] = useState(show);
 
     const toggle = () => {
         setShowProjects(prev => !prev);
     }
 
     return (
-        <div className={styles.container}>
+        <div className={`${styles.container} ${showProjects && styles.open}`}>
             <header>
                 <div className={styles.logo}>
                     <img src={organization.logo} />
                 </div>
                 <div className={styles.details}>
-                    <div className={styles.timePeriod}>{timePeriod}</div>
-                    <Heading text={designation} bold={true} />
-                    <h4 className={styles.organization}>
-                        <a href={organization.website} target="_blank">{organization.name}</a>, {organization.location}
-                    </h4>
+                    <div className={styles.info}>
+                        <div className={styles.timePeriod}>{timePeriod}</div>
+                        <Heading text={designation} bold={true} />
+                        <h4 className={styles.organization}>
+                            <a href={organization.website} target="_blank">{organization.name}</a>, {organization.location}
+                        </h4>
+                    </div>
+                    <span className={styles.toggle} onClick={toggle}>
+                        {showProjects ? 'Hide' : 'Show'} Projects
+                    </span>
                 </div>
-                <span className={styles.toggle} onClick={toggle}>
-                    {showProjects ? 'Hide' : 'Show'} Projects
-                </span>
             </header>
 
             {

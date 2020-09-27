@@ -1,8 +1,8 @@
 @import './../../styles/_variables';
 
 .skills {
-    display: flex;
-    flex-wrap: wrap;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
 
     .skill {
         width: 5rem;
@@ -27,5 +27,9 @@
         @media screen and (max-width: $mobile-breakpoint) {
             margin: 0.5rem
         }
+    }
+
+    @media screen and (max-width: $mobile-breakpoint) {
+        grid-template-columns: auto auto auto
     }
 }

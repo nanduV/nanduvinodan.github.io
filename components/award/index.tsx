@@ -15,7 +15,7 @@ export const Award: React.FunctionComponent<AwardInterface> = (props) => {
     return (
         <div className={styles.container}>
             <div className={styles.prize}>
-                {prize}
+                <img src={`images/prizes/${prize}.svg`} />
             </div>
             <div className={styles.details}>
                 <Heading text={event} />

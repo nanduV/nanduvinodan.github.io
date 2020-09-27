@@ -14,5 +14,6 @@ export interface WorkDetailInterface {
         responsibilities?: Array<string>,
         technologies?: Array<string>,
         link?: string
-    }>
+    }>,
+    show?: boolean
 }

@@ -9,11 +9,15 @@
 
 body {
     height: 100vh;
-    background: $body-bg-color;
+    background: $theme-color-background;
 }
 
 @media (max-width: 62.5rem) {
     html {
         font-size: 16px;
+    }
+
+    h3 {
+        font-size: 1rem;
     }
 }

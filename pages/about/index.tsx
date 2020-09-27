@@ -3,7 +3,7 @@ import styles from './about.module.scss';
 import PageTemplate from '../../containers/page-template/page-template';
 import { DetailsContainer } from '../../components';
 
-const Education = () => {
+const About = () => {
     return (
         <PageTemplate>
             <DetailsContainer title="ABOUT">
@@ -17,9 +17,13 @@ const Education = () => {
                 <p className={styles.about}>
                     I have experience in various software life-cycle phases including but not limited to  requirements phase, designing solutions, setting-up build environment and deployment infrastructure, planning release milestones, developing software and building dashboards for monitoring.
                 </p>
+                <p className={styles.about}>
+                    <p className={styles.hello}>Contact Me</p>
+                    <a href="mailTo:nanduvinodan2@gmail.com">nanduvinodan2@gmail.com</a>
+                </p>
             </DetailsContainer>
         </PageTemplate>
     )
 };
 
-export default Education;
+export default About;

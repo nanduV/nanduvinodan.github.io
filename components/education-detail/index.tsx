@@ -26,7 +26,7 @@ export const EducationDetail: React.FunctionComponent<EducationDetailInterface> 
                 <SubHeading text={`${school.name}, ${school.location}`} />
             }
             <h5>{year}</h5>
-            <div className={styles.image}></div>
+            {/* <div className={styles.image}></div> */}
         </div>
     )
 };
