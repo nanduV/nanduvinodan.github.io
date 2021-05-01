@@ -1,5 +1,30 @@
 const WorkExperienceData = [
     {
+        "designation": "Lead Software Engineer",
+        "organization": {
+            "name": "Freshworks",
+            "location": "Chennai",
+            "website": "https://www.freshworks.com/",
+            "logo": "images/organizations/freshworks.png"
+        },
+        "timePeriod": "2021 - PRESENT",
+        "projects": [
+            {
+                "type": "Project",
+                "name": "Edge API Gateway",
+                "responsibilities": [
+                    "Working on an Edge API-Gateway platform service which acts as the front proxy for multiple products at Freshworks.",
+                    "Worked on other API-Gateway components like rate-limiting and authentication services.",
+                    "Experienced in building mirco-services with availability of five nines (99.999%) and throughput of over 400K requests per minute."
+                ],
+                "technologies": [
+                    "Kubernetes", "AWS", "Golang", "Docker", "Envoy", "Redis", "Distributed Systems", "Terraform", "Grafana", "Spring-boot"
+                ],
+                "link": null
+            }
+        ]
+    },
+    {
         "designation": "Senior Software Engineer",
         "organization": {
             "name": "Freshworks",
@@ -7,7 +32,7 @@ const WorkExperienceData = [
             "website": "https://www.freshworks.com/",
             "logo": "images/organizations/freshworks.png"
         },
-        "timePeriod": "2019 - PRESENT",
+        "timePeriod": "2019 - 2021",
         "projects": [
             {
                 "type": "Project",
@@ -16,7 +41,7 @@ const WorkExperienceData = [
                     "Working with the API-Gateway team at Freshworks on building a service which provides api-throttling and rate-limiting.",
                     "Developed features in the rate-limiting service while maintaining the core tenets of having low-latency and high throughput.",
                     "Worked on tuning reverse proxy - Envoy, for improved performance of rate-limiting service to process more than half a billion requests a day at 1ms",
-                    "Made an open-source feature contribution to Envoy (a CNCF graduated project)."
+                    "Open-source feature contributions to Envoy (a CNCF graduated project)."
                 ],
                 "technologies": [
                     "Java", "AWS", "Redis", "Docker", "Envoy", "Distributed Systems"
