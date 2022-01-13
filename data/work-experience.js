@@ -7,7 +7,7 @@ const WorkExperienceData = [
             "website": "https://www.freshworks.com/",
             "logo": "images/organizations/freshworks.png"
         },
-        "timePeriod": "2021 - PRESENT",
+        "timePeriod": "2021 - 2022",
         "projects": [
             {
                 "type": "Project",
