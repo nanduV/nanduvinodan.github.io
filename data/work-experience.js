@@ -1,5 +1,28 @@
 const WorkExperienceData = [
     {
+        "designation": "Software Engineer 3",
+        "organization": {
+            "name": "Google",
+            "location": "Bengaluru",
+            "website": "https://www.google.co.in/",
+            "logo": "images/organizations/google.png"
+        },
+        "timePeriod": "2022 - PRESENT",
+        "projects": [
+            {
+                "type": "Project",
+                "name": "Google Cloud Platform",
+                "responsibilities": [
+                    "Cloud Security and Compliance"
+                ],
+                "technologies": [
+                    "Java", "GCP"
+                ],
+                "link": null
+            }
+        ]
+    },
+    {
         "designation": "Lead Software Engineer",
         "organization": {
             "name": "Freshworks",
