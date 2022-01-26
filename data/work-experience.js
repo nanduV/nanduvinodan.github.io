@@ -5,7 +5,7 @@ const WorkExperienceData = [
             "name": "Google",
             "location": "Bengaluru",
             "website": "https://www.google.co.in/",
-            "logo": "images/organizations/google.png"
+            "logo": "images/organizations/google.jpg"
         },
         "timePeriod": "2022 - PRESENT",
         "projects": [
