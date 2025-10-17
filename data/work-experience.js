@@ -1,5 +1,51 @@
 const WorkExperienceData = [
     {
+        "designation": "Senior Software Engineer",
+        "organization": {
+            "name": "Google",
+            "location": "Bengaluru",
+            "website": "https://www.google.co.in/",
+            "logo": "images/organizations/google.jpg"
+        },
+        "timePeriod": "2025 - Present",
+        "projects": [
+            {
+                "type": "Project",
+                "name": "Google Photos",
+                "responsibilities": [
+                    "Driving technical leadership and engineering excellence within the team responsible for the end-to-end Machine Learning Model Flow for Google Photos, ensuring robust and reliable deployment at massive scale."
+                ],
+                "technologies": [
+                    "AI", "ML Ops", "Gemini", "Distributed Systems"
+                ],
+                "link": null
+            }
+        ]
+    },
+    {
+        "designation": "Senior Software Engineer",
+        "organization": {
+            "name": "Google",
+            "location": "Bengaluru",
+            "website": "https://www.google.co.in/",
+            "logo": "images/organizations/google.jpg"
+        },
+        "timePeriod": "2024 - 2025",
+        "projects": [
+            {
+                "type": "Project",
+                "name": "GCP Cloud Security and Compliance",
+                "responsibilities": [
+                    "Led the design and development of core services responsible for enabling global compliance for all customers and partners in Google Cloud, covering major regulatory frameworks like FedRAMP."
+                ],
+                "technologies": [
+                    "Java", "GCP", "Cloud Spanner", "Distributed Systems"
+                ],
+                "link": null
+            }
+        ]
+    },
+    {
         "designation": "Software Engineer 3",
         "organization": {
             "name": "Google",
@@ -7,7 +53,7 @@ const WorkExperienceData = [
             "website": "https://www.google.co.in/",
             "logo": "images/organizations/google.jpg"
         },
-        "timePeriod": "2022 - PRESENT",
+        "timePeriod": "2022 - 2024",
         "projects": [
             {
                 "type": "Project",
@@ -16,7 +62,7 @@ const WorkExperienceData = [
                     "Cloud Security and Compliance"
                 ],
                 "technologies": [
-                    "Java", "GCP"
+                    "Java", "GCP", "Cloud Spanner", "Distributed Systems"
                 ],
                 "link": null
             }
