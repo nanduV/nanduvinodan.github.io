@@ -14,22 +14,21 @@ const About = () => {
             <DetailsContainer title="ABOUT">
                 <p className={styles.hello}>Hello World.</p>
                 <p className={styles.info}>
-                    I'm a Software Engineer, experienced in developing high scalable APIs and applications focused on back-end optimizations with a demonstrated history of designing, developing and building large-scale applications. Professional with a great work ethic and strives for best results without compromising on quality with high efficient problem solving. Also, a team player who is always passionate about learning new technologies and solving challenging problems.
+                    I am a Senior Software Engineer and Technical Leader with 9+ years of experience specializing in building and scaling mission-critical, high-availability platforms across Google, Amazon, and Freshworks.
+
+My current focus is on MLOps within Google Photos, where I contribute to streamlining the entire model flow—from initial development to stable, production-scale deployment. This work is grounded in my deep expertise in Distributed Systems, large-scale APIs, and Backend Optimization.
                 </p>
                 <p className={styles.info}>
-                    I am highly proficient in C++, Java, multi-threaded programming and micro-services architectures. I love participating in competitive programming challenges and of late, I am exploring designing and implementing scalable and highly available distributed systems. Checkout my coding profiles here.
+                
+Previously, as part of the GCP Cloud Security and Compliance team, I engineered complex systems responsible for enabling global compliance and security for all Google Cloud customers and partners. I excel at solving challenging scalability problems and leading technical initiatives from architectural design through execution. I possess a great work ethic, consistently strive for the best results without compromising quality, and am highly efficient in problem solving.
+
+My expertise spans the entire software lifecycle, including requirements definition, solution design, setting up build environments, planning release milestones, and building robust monitoring infrastructure.
+
+    
                 </p>
 
-                <div className={styles.codingProfile}>
-                    {
-                        data && data.map(d => {
-                            return <a key={d.link} href={d.link} target="_blank"><Badge name={d.name} icon={d.icon} /></a>
-                        })
-                    }
-                </div>
-
                 <p className={styles.info}>
-                    I have experience in various software life-cycle phases including but not limited to  requirements phase, designing solutions, setting-up build environment and deployment infrastructure, planning release milestones, developing software and building dashboards for monitoring.
+Core Technical Expertise: MLOps, System Reliability, Scalability, Cloud Security, GCP, Kubernetes, Distributed Systems, Large-Scale APIs, Java, C++, Go, and Multi-threaded Programming.
                 </p>
                 <div className={styles.info}>
                     <Heading text="Contact Me" />
