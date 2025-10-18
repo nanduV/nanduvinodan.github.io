@@ -2,12 +2,12 @@
   "name": "nandu-resume",
   "version": "0.1.0",
   "engines": {
-    "node": "18.x" 
+    "node": "22.x" 
   },
   "private": true,
   "scripts": {
     "dev": "next dev",
-    "build": "next build",
+    "build": "NODE_OPTIONS=--openssl-legacy-provider next build",
     "start": "next start",
     "generate": "./generator.sh"
   },
